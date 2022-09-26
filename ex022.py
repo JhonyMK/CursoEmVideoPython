@@ -1,0 +1,6 @@
+nome = str(input('Seu nome completo: ')).strip()
+inicial = nome.split()
+print('Seu nome em maisculo: ', nome.upper())
+print('Seu nome em minusculo: ', nome.lower())
+print('A quantidade de caracteres no seu nome sem contar espaços: ', len(nome) - nome.count(' '))
+print('A quantidade de caracteres do seu primeiro nome: ', len(inicial[0]))
